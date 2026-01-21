@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <link rel="stylesheet" href="src/styles.css" />
+    <script src="/src/script.js"></script>
+    <title>My Google Clone</title>
+  </head>
+    <body class="font-arial bg-zinc-900 bg-linear-to-t from-gray-700 to-gray-900 bg-no-repeat h-screen w-screen bg-fixed text-white">
+    <header>
+            <div class="flex justify-center items-center p-4 sm:p-5">
+                <a href="https://about.google" class="m-2 sm:m-3 hover:underline hover:transform hover:scale-110 duration-300 text-sm sm:text-base">About</a>
+                <a href="https://store.google.com" class="m-2 sm:m-3 hover:underline hover:transform hover:scale-110 duration-300 text-sm sm:text-base">Store</a>
+                <button class="w-8 sm:w-10 rounded-xl hover:cursor-pointer m-2 sm:m-3 hover:transform hover:scale-110 duration-300">
+                    <img src="profile-icon.png" class="rounded-3xl w-full h-auto" alt="Profile Icon" />
+                </button>
+            </div>
+    </header>
+    <hr class="border-gray-500">
+    <main>
+        <div class="flex flex-col items-center justify-center px-4">
+            <img src="Google-Logo.wine.svg" alt="Google Logo" class="sm:w-70 md:w-80 lg:w-90 xl:w-100 "/>
+            <div class="bg-transparent focus-within:animate-rotate-border delay-200 focus-within:bg-conic/[from_var(--border-angle)] from-red-700 via-green-700 to-transparent from-10% via-30% to-50% flex justify-center items-center rounded-xl p-2 w-full max-w-2xl m-auto duration-500 h-18 hover:transform hover:scale-105">
+                <div class="flex justify-center items-center bg-gray-700 rounded-xl px-3 sm:px-5 h-full outline-none w-full hover:bg-gray-600 duration-200 active:bg-gray-500">
+                    <button class="searchbtn hover:bg-gray-500 p-2 rounded-xl duration-300 delay-300"><img src="searchico.png" class="w-5 h-5" alt="Search Icon"/></button>
+                    <input type="text" placeholder="Search questions or type in a URL" class="meowsearchfield peer flex-1 bg-transparent outline-none text-white placeholder-gray-400 ml-2 sm:ml-5 text-sm sm:text-base"/>
+                    <button class="flex items-center text-center hover:cursor-pointer hover:bg-gray-500 duration-300 ml-2 sm:ml-10 rounded-xl pt-2 pl-4 pr-4 pb-2.5 mt-2 mb-2 text-base sm:text-xl">+</button>
+                </div>
+            </div>
+            <div class="flex flex-col sm:flex-row justify-center items-center gap-3 sm:gap-5 mt-8">
+                <button class="gsearch-btn px-6 py-3 hover:cursor-pointer rounded-sm bg-gray-800 m-2 duration-200 hover:bg-gray-600 hover:transform hover:scale-110 text-sm sm:text-base">Google Search</button>
+                <button class="grandom-btn px-6 py-3 hover:cursor-pointer rounded-sm bg-gray-800 m-2 duration-200 hover:bg-gray-600 hover:transform hover:scale-110 text-sm sm:text-base">I'm Feeling Lucky</button>
+                <div class="bg-transparent hover:animate-rotate-border delay-200 hover:bg-conic/[from_var(--border-angle)] from-red-700 via-green-700 to-transparent from-10% via-20% to-30% justify-center items-center rounded-xl p-px w-fit max-w-2xl duration-500 hover:transform hover:scale-105">
+                    <button class="gaimode-btn px-5 py-3 hover:cursor-pointer rounded-sm bg-gray-800 m-2 duration-200 hover:bg-gray-600 hover:transform hover:scale-110 text-sm sm:text-base">AI Mode</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+
+    </footer>
+  </body>
+</html>
